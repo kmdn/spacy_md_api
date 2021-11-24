@@ -1,5 +1,7 @@
 # Install the base requirements for the app.
 # This stage is to support development.
+
+# docker-compose up --build --remove-orphans
 FROM python:3 AS base
 WORKDIR /app
 
